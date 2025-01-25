@@ -55,7 +55,7 @@ let map = fn(arr, f) {
 };
 ```
 
-You can notice that this Monkey programming Language doesn't have a loop 
+You can notice that this Monkey programming Language doesn't have a loop, all is Recursive!
 
 ## How to use the interpreter?
 
