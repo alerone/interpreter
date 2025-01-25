@@ -28,9 +28,10 @@ const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
 	// Identifiers + literals
-	IDENT = "IDENT" // add, foobar, x, y, ...
-	INT   = "INT"   // 1343456
-	FLOAT = "FLOAT" // 1343456
+	IDENT  = "IDENT"  // add, foobar, x, y, ..{.
+	INT    = "INT"    // 1343456
+	FLOAT  = "FLOAT"  // 13.45645645
+	STRING = "STRING" // "Hello mrnugget"
 	// Operators
 	ASSIGN   = "="
 	PLUS     = "+"
@@ -45,10 +46,13 @@ const (
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
+	COLON     = ":"
 	LPAREN    = "("
 	RPAREN    = ")"
 	LBRACE    = "{"
 	RBRACE    = "}"
+	LBRACKET  = "["
+	RBRACKET  = "]"
 	// Keywords
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
