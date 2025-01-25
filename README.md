@@ -28,6 +28,7 @@ This interpreter is a simple programming language made with Golang. It has the n
 - `Strings` ("Hello World")
 - `Floats` (5.65, -34.55)
 - `Function literals` (fn (x, y) {x + y})
+- `Variables` (let x = 5, let add = fn(x, y) {x + y})
 - `Arrays` (\[34, 44, 50\] or \[fn(x, y){x/y}, 345, true\]) --> see how the types of the array doesn't really matter.
 - `Hash` ({"hello": "world", "foo": "bar"} or {true: false, 1: 35, "goo": true}) --> see how the types in key or in value doesn't really matter.
 
